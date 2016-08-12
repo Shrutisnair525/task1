@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/css/newformstyle.css">
+    <link href="/assets/icon.jpeg" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> New Login form </title>
+  </head>
+  <body>
+
+    <div class="login">
+
+      <form action="registrationform.html">
+
+        <div class="heading">
+          <h3> Login!!! </h3>
+        </div>
+        <div id="space">
+        </div>
+        <div class="loginfield">
+          <label class="leftside"> Name: </label>
+          <input class="rightside" type="text" id="Name" placeholder="Full Name"><br/>
+        </div>
+
+        <div id="err_name">
+          </div>
+
+        <div class="loginfield">
+          <label class="leftside" >Email id: </label>
+          <input class="rightside" type="email" id="Email" placeholder=" Valid Mail id"> <br/>
+
+        </div>
+        <div id="err_mail">
+        </div>
+
+        <div class="loginfield">
+          <label class="leftside">Password: </label>
+          <input class="rightside" type="password" id="Password"  placeholder="Password of 6 or more characters"><br/>
+
+        </div>
+        <div id="err_psw">
+        </div>
+
+        <button class="loginbutton" type="button" onclick=" return validateFunction()"> Log in </button>
+        </form>
+    </div>
+
+    <div class="new">
+      <h4> Not Registered??</h4>
+      <a href="registrationform.html"> Register here </a>
+    </div>
+
+    <script src="/js/validation.JS" type="text/javascript"></script>
+
+  </body>
+</html>

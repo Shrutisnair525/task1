@@ -1,0 +1,173 @@
+
+body {
+  background: url("/assets/registration.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#err_mail, #err_psw {
+      color: red;
+      font-size: 15px;
+      text-align: right;
+      height: 45px;
+      margin-right: 20%;
+      display: block;
+}
+
+.registration .userform{
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.registration .education, .registration .performance, .registration .personal, .registration .account{
+  border: 1px solid;
+  border-radius: 25px;
+  border-color: black;
+  border-width: .05em;
+}
+
+.registration .space{
+  height: 30px;
+}
+
+.registration .personal .insideheading, .registration .education .insideheading, .registration .performance .insideheading, .registration .account .insideheading{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.registration  .details{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.registration  .entry{
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -moz-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+  -moz-align-items: center;
+   margin-bottom:10px;
+}
+
+.registration  .entry  .leftside {
+    width: 40%;
+    height: 30px;
+    font-size: 23px;
+   }
+
+.registration .personal .entry .rightsideaddress {
+       width: 25%;
+       border-radius: 5px;
+       padding-left: 0.5%;
+}
+
+.registration  .entry .rightside {
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 0.5%;
+    width: 25%;
+  }
+
+.registration  .entry .rightsideperformance{
+    font-size: 23px;
+    height: 30px;
+    padding-left: 0.5%;
+    width: 25%;
+}
+
+.registration  .performance .entry .leftsideoption{
+    width: 40%;
+    height: 30px;
+    font-size: 23px;
+}
+
+.registration  .performance .entry .rightsideoption{
+  border-radius: 5px;
+  height: 30px;
+  padding-left: 0.5%;
+  width: 25%;
+  display: flex;
+  align-content: flex-start;
+  justify-content: flex-start;
+}
+
+.registration .personal .entry .rightradiobutton {
+    border-radius: 5px;
+    height: 30px;
+    width: 25%;
+    padding-left: 0.5%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    justify-content: space-around;
+    -moz-justify-content: center;
+    align-items: center;
+
+    }
+
+.registration .personal .entry .rightradiobutton .radiotext{
+      font-size:23px;
+}
+
+
+.registration .personal .entry .radiorightside{
+    line-height  : 30px;
+}
+
+#submitbutton {
+  background-color: #494449;
+  border: none;
+  border-radius: 3px 3px 3px 3px;
+ -moz-border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px 3px 3px 3px;
+ color: #f4f4f4;
+ cursor: pointer;
+ height: 50px;
+ text-transform: uppercase;
+ width: 250px;
+ margin:0 auto;
+ display: block;
+}
+
+#submitbutton:hover {
+    background-color: #6d6a6d;
+    color: white;
+}
+
+.registration .education .subheading{
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  padding-left: 3%;
+}
+
+/*@media screen and (min-width: 480px) {
+
+.registration .entry  .leftside {
+    width: 200px;
+     float: left;
+    display: inline-block;
+    position: relative;
+   }
+.registration .entry .rightside {
+    display: inline-block;
+    width: auto;
+    position: relative;
+  }
+}*/

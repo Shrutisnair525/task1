@@ -1,0 +1,77 @@
+body {
+  background: url("/assets/employee.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.space{
+  background: url("/assets/employeebackground.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width:350px;
+  height:1000px;
+  opacity: 0.6;
+}
+
+.space h2{
+  text-align: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+  font-size: 35px;
+  color: #3a338d;
+}
+
+.space .names{
+  height: 35px;
+  font-size: 25px;
+  color: #464818;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.content {
+    background-color: #f3d883;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 20%;
+    height: 400px;
+}
+
+.close {
+    color: #cac8ec;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover, .close:focus {
+    color: #eabc81;
+    text-decoration: none;
+    cursor: pointer;
+}
+/*#employeedetails{
+  margin-right: 50px;
+  height: 600px;
+  width:300px;
+}*/

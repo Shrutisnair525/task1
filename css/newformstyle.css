@@ -1,0 +1,123 @@
+body {
+  background: url("/assets/secure.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+#err_mail, #err_name, #err_psw {
+  color: red;
+  font-size: 15px;
+  text-align: right;
+  height: 45px;
+  display: block;
+}
+.login{
+    background: url("/assets/visionbg.png") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width:350px;
+    height:480px;
+    margin:0 auto;
+    opacity: 0.8;
+    margin-top: 120px;
+}
+
+.new{
+
+  width:350px;
+  margin:0 auto;
+  margin-top: 30px;
+  background-color: #1e3bb8;
+  text-align: center;
+  height:80px;
+}
+
+.new h4{
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+.new a{
+  font-size: 20px;
+  color:#83b5ef;
+}
+
+.new a:hover{
+  color:#4c77a7;
+}
+
+.login #space{
+  display: block;
+  height: 45px;
+}
+.login .loginbutton {
+
+      background-color: #0f2271;
+     border: none;
+     border-radius: 3px 3px 3px 3px;
+     -moz-border-radius: 3px 3px 3px 3px;
+     -webkit-border-radius: 3px 3px 3px 3px;
+     color: #f4f4f4;
+     cursor: pointer;
+     height: 50px;
+     text-transform: uppercase;
+     width: 250px;
+     margin:0 auto;
+     display: block;
+
+}
+.login .loginbutton:hover {
+    background-color: #5b73db;
+    color: white;
+}
+.login .heading{
+  font-size: 30px;
+  background-color: #1e3bb8;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.login .loginfield{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -moz-justify-content: center;
+    align-items: center;
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -moz-flex-direction: row;
+
+}
+
+.login .loginfield  .leftside {
+      width: 40%;
+      height: 30px;
+      font-size: 23px;
+   }
+
+.login .loginfield .rightside {
+    width: 50%;
+    border-radius: 5px;
+    height: 30px;
+    padding-left: 2%;
+}
+
+}
+/*
+.login .loginfield .leftside {
+    width: 120px;
+    display: inline-block;
+  }
+  .login .loginfield .rightside{
+    display: inline-block;
+    width: 80%;
+    border-radius: 5px;
+  }
+*/

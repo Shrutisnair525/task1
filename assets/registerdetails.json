@@ -1,0 +1,64 @@
+
+registeredemployee = [
+     {"name": "Abraham",
+       "address":"Sankeerthanam, Trivandrum",
+       "pincode":"634123",
+       "phone no": "76991683125",
+       "age" : "32",
+       "gender":"male",
+       "nationality":"Indian",
+       "education":{ "Graduation":{ "college": "CET, Trivandrum",
+                                    "university" :"Kerala",
+                                    "percentage" : "75"
+                                  },
+                      "twelth":{ "school":"Kendriya Vidyalaya, Trivandrum",
+                                  "board":"CBSE",
+                                  "percentage" :"88"
+                                },
+                      "tenth":{ "school":"Kendriya Vidyalaya, Trivandrum",
+                                "board":"CBSE",
+                                "percentage" :"90"
+                              }
+                    },
+        "performance":{ "2010": "3",
+                        "2011": "4",
+                        "2012": "2",
+                        "2013": "5",
+                        "2014": "6",
+                        "2015": "5"
+        },
+        "mailid":"abraham@gmail.com",
+        "password":"abcabc"
+
+     },
+     {"name": "Sonia",
+       "address":"Shreyas, Trivandrum",
+       "pincode":"646123",
+       "phone no": "97021683125",
+       "age" : "24",
+       "gender":"female",
+       "nationality":"Indian",
+       "education":{ "Graduation":{ "college": "RIT, Kottayam",
+                                    "university" :"MG",
+                                    "percentage" : "75"
+                                  },
+                      "twelth":{ "school":"Saraswati Vidyalaya, Trivandrum",
+                                  "board":"CBSE",
+                                  "percentage" :"88"
+                                },
+                      "tenth":{ "school":"Saraswati Vidyalaya, Trivandrum",
+                                "board":"CBSE",
+                                "percentage" :"90"
+                              }
+                    },
+        "performance":{ "2010": "4",
+                        "2011": "3",
+                        "2012": "5",
+                        "2013": "6",
+                        "2014": "4",
+                        "2015": "6"
+        },
+        "mailid":"sonia@gmail.com",
+        "password":"xzxzxz"
+     }
+   ];

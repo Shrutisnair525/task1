@@ -1,0 +1,51 @@
+body{
+  background: url("/assets/success.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 800px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.container .heading{
+  font-size: 40px;
+  font-family: cursive;
+  color: #b1cee4;
+  text-align: center;
+}
+
+.container .data{
+  font-size: 25px;
+  font-family: cursive;
+  color: #b1cee4;
+  text-align: center;
+}
+
+
+#submitbutton {
+  background-color: #467ba7;
+  border: none;
+  border-radius: 3px 3px 3px 3px;
+ -moz-border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px 3px 3px 3px;
+ color: #f4f4f4;
+ cursor: pointer;
+ height: 50px;
+ text-transform: uppercase;
+ width: 250px;
+}
+
+#submitbutton:hover{
+  background-color: #34526b;
+
+}
